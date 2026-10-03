@@ -33,7 +33,7 @@ Open a file, edit nodes and relationships directly, validate the structure, save
 
 ### Use it locally
 
-1. Download `index.html`.
+1. Download `Knowledge Graph Editor v1.0.0.html`.
 2. Open it in a modern browser.
 3. Choose **New document** or **Open file**.
 4. Save ongoing work with **Save Project**.
@@ -43,7 +43,7 @@ No installation or local server is required for normal use.
 
 ### Use the hosted GitHub Pages build
 
-After Pages is enabled for the repository, the included workflow publishes the same `index.html` application automatically from `main`.
+After Pages is enabled for the repository, the included workflow publishes the same `Knowledge Graph Editor v1.0.0.html` application automatically from `main`.
 
 ## File formats
 
@@ -83,11 +83,11 @@ See [docs/FILE_FORMATS.md](docs/FILE_FORMATS.md) for the full project format and
 
 ```text
 .
-├── index.html                  # Complete standalone application
-├── examples/                   # Example Viewer and project files
-├── docs/                       # Architecture, formats, privacy, development
-├── tools/validate.mjs          # Zero-dependency repository validation
-├── .github/                    # CI, Pages, issue and PR templates
+├── Knowledge Graph Editor v1.0.0.html      # Complete standalone application
+├── examples/                               # Example Viewer and project files
+├── docs/                                   # Architecture, formats, privacy, development
+├── tools/validate.mjs                      # Zero-dependency repository validation
+├── .github/                                # CI, Pages, issue and PR templates
 ├── README.md
 ├── CONTRIBUTING.md
 ├── SECURITY.md
