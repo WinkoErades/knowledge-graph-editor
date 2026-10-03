@@ -1,0 +1,584 @@
+{
+  "format": "knowledge-graph-editor/project-v2",
+  "version": 2,
+  "document": {
+    "title": "Example knowledge graph",
+    "description": "An expanded illustrative narrative dataset for demonstrating the Knowledge Graph Editor. It is designed to exercise node types, relation types, graph navigation, validation, project saving, and Viewer JSON export."
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "name": "Adam",
+      "type": "Person",
+      "x": 180,
+      "y": 150
+    },
+    {
+      "id": "n2",
+      "name": "Eve",
+      "type": "Person",
+      "x": 370,
+      "y": 150
+    },
+    {
+      "id": "n3",
+      "name": "Apple",
+      "type": "Fruit",
+      "x": 560,
+      "y": 150
+    },
+    {
+      "id": "n4",
+      "name": "FORBIDDEN_FRUITS",
+      "type": "Knowledge",
+      "x": 750,
+      "y": 150
+    },
+    {
+      "id": "n5",
+      "name": "Garden of Eden",
+      "type": "Place",
+      "x": 940,
+      "y": 150
+    },
+    {
+      "id": "n6",
+      "name": "Tree of Knowledge",
+      "type": "Tree",
+      "x": 1130,
+      "y": 150
+    },
+    {
+      "id": "n7",
+      "name": "Tree of Life",
+      "type": "Tree",
+      "x": 1320,
+      "y": 150
+    },
+    {
+      "id": "n8",
+      "name": "Serpent",
+      "type": "Animal",
+      "x": 1510,
+      "y": 150
+    },
+    {
+      "id": "n9",
+      "name": "God",
+      "type": "Deity",
+      "x": 235,
+      "y": 320
+    },
+    {
+      "id": "n10",
+      "name": "River of Eden",
+      "type": "WaterBody",
+      "x": 425,
+      "y": 320
+    },
+    {
+      "id": "n11",
+      "name": "Pishon",
+      "type": "River",
+      "x": 615,
+      "y": 320
+    },
+    {
+      "id": "n12",
+      "name": "Gihon",
+      "type": "River",
+      "x": 805,
+      "y": 320
+    },
+    {
+      "id": "n13",
+      "name": "Tigris",
+      "type": "River",
+      "x": 995,
+      "y": 320
+    },
+    {
+      "id": "n14",
+      "name": "Euphrates",
+      "type": "River",
+      "x": 1185,
+      "y": 320
+    },
+    {
+      "id": "n15",
+      "name": "Fig Leaves",
+      "type": "PlantMaterial",
+      "x": 1375,
+      "y": 320
+    },
+    {
+      "id": "n16",
+      "name": "Knowledge of Good and Evil",
+      "type": "Concept",
+      "x": 1565,
+      "y": 320
+    },
+    {
+      "id": "n17",
+      "name": "East of Eden",
+      "type": "Place",
+      "x": 180,
+      "y": 490
+    },
+    {
+      "id": "n18",
+      "name": "Cherubim",
+      "type": "Guardian",
+      "x": 370,
+      "y": 490
+    },
+    {
+      "id": "n19",
+      "name": "Flaming Sword",
+      "type": "Object",
+      "x": 560,
+      "y": 490
+    },
+    {
+      "id": "n20",
+      "name": "Dust",
+      "type": "Material",
+      "x": 750,
+      "y": 490
+    },
+    {
+      "id": "n21",
+      "name": "Rib",
+      "type": "BodyPart",
+      "x": 940,
+      "y": 490
+    },
+    {
+      "id": "n22",
+      "name": "Animals",
+      "type": "Group",
+      "x": 1130,
+      "y": 490
+    },
+    {
+      "id": "n23",
+      "name": "Birds",
+      "type": "Group",
+      "x": 1320,
+      "y": 490
+    },
+    {
+      "id": "n24",
+      "name": "Livestock",
+      "type": "Group",
+      "x": 1510,
+      "y": 490
+    },
+    {
+      "id": "n25",
+      "name": "Wild Animals",
+      "type": "Group",
+      "x": 235,
+      "y": 660
+    },
+    {
+      "id": "n26",
+      "name": "Naming Animals",
+      "type": "Activity",
+      "x": 425,
+      "y": 660
+    },
+    {
+      "id": "n27",
+      "name": "Tending the Garden",
+      "type": "Activity",
+      "x": 615,
+      "y": 660
+    },
+    {
+      "id": "n28",
+      "name": "Exile from Eden",
+      "type": "Event",
+      "x": 805,
+      "y": 660
+    },
+    {
+      "id": "n29",
+      "name": "Garden Entrance",
+      "type": "Place",
+      "x": 995,
+      "y": 660
+    },
+    {
+      "id": "n30",
+      "name": "Commandment",
+      "type": "Rule",
+      "x": 1185,
+      "y": 660
+    },
+    {
+      "id": "n31",
+      "name": "Temptation",
+      "type": "Event",
+      "x": 1375,
+      "y": 660
+    },
+    {
+      "id": "n32",
+      "name": "Choice",
+      "type": "Concept",
+      "x": 1565,
+      "y": 660
+    }
+  ],
+  "nodeTypes": [
+    "Activity",
+    "Animal",
+    "BodyPart",
+    "Concept",
+    "Deity",
+    "Event",
+    "Fruit",
+    "Group",
+    "Guardian",
+    "Knowledge",
+    "Material",
+    "Object",
+    "Person",
+    "Place",
+    "PlantMaterial",
+    "River",
+    "Rule",
+    "Tree",
+    "WaterBody"
+  ],
+  "relationTypes": [
+    "ADDRESSED_TO",
+    "ASSIGNS",
+    "ASSOCIATED_WITH",
+    "BRANCH_OF",
+    "CONCERNS",
+    "CONTAINS",
+    "EATS",
+    "FLOWS_FROM",
+    "FOLLOWS",
+    "FORMED_FROM",
+    "GIVES",
+    "GIVES_TO",
+    "GROWS_ON",
+    "GUARDS",
+    "INCLUDES",
+    "INVOLVES",
+    "IS",
+    "KNOWS",
+    "LEADS_TO",
+    "LIVES_IN",
+    "LOCATED_IN",
+    "MADE_BY",
+    "MADE_FROM",
+    "PARTICIPATES_IN",
+    "PERFORMS",
+    "PROTECTS_ACCESS_TO",
+    "SPEAKS_TO",
+    "TAKEN_FROM",
+    "TAKES_PLACE_IN",
+    "TARGETS",
+    "TEMPTS",
+    "USES"
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "n1",
+      "type": "KNOWS",
+      "target": "n2"
+    },
+    {
+      "id": "r2",
+      "source": "n2",
+      "type": "KNOWS",
+      "target": "n4"
+    },
+    {
+      "id": "r3",
+      "source": "n3",
+      "type": "IS",
+      "target": "n4"
+    },
+    {
+      "id": "r4",
+      "source": "n1",
+      "type": "EATS",
+      "target": "n3"
+    },
+    {
+      "id": "r5",
+      "source": "n1",
+      "type": "LIVES_IN",
+      "target": "n5"
+    },
+    {
+      "id": "r6",
+      "source": "n2",
+      "type": "LIVES_IN",
+      "target": "n5"
+    },
+    {
+      "id": "r7",
+      "source": "n6",
+      "type": "LOCATED_IN",
+      "target": "n5"
+    },
+    {
+      "id": "r8",
+      "source": "n7",
+      "type": "LOCATED_IN",
+      "target": "n5"
+    },
+    {
+      "id": "r9",
+      "source": "n3",
+      "type": "GROWS_ON",
+      "target": "n6"
+    },
+    {
+      "id": "r10",
+      "source": "n4",
+      "type": "ASSOCIATED_WITH",
+      "target": "n6"
+    },
+    {
+      "id": "r11",
+      "source": "n16",
+      "type": "ASSOCIATED_WITH",
+      "target": "n6"
+    },
+    {
+      "id": "r12",
+      "source": "n8",
+      "type": "SPEAKS_TO",
+      "target": "n2"
+    },
+    {
+      "id": "r13",
+      "source": "n8",
+      "type": "TEMPTS",
+      "target": "n2"
+    },
+    {
+      "id": "r14",
+      "source": "n2",
+      "type": "EATS",
+      "target": "n3"
+    },
+    {
+      "id": "r15",
+      "source": "n2",
+      "type": "GIVES_TO",
+      "target": "n1"
+    },
+    {
+      "id": "r16",
+      "source": "n5",
+      "type": "CONTAINS",
+      "target": "n6"
+    },
+    {
+      "id": "r17",
+      "source": "n5",
+      "type": "CONTAINS",
+      "target": "n7"
+    },
+    {
+      "id": "r18",
+      "source": "n10",
+      "type": "FLOWS_FROM",
+      "target": "n5"
+    },
+    {
+      "id": "r19",
+      "source": "n11",
+      "type": "BRANCH_OF",
+      "target": "n10"
+    },
+    {
+      "id": "r20",
+      "source": "n12",
+      "type": "BRANCH_OF",
+      "target": "n10"
+    },
+    {
+      "id": "r21",
+      "source": "n13",
+      "type": "BRANCH_OF",
+      "target": "n10"
+    },
+    {
+      "id": "r22",
+      "source": "n14",
+      "type": "BRANCH_OF",
+      "target": "n10"
+    },
+    {
+      "id": "r23",
+      "source": "n1",
+      "type": "MADE_FROM",
+      "target": "n20"
+    },
+    {
+      "id": "r24",
+      "source": "n2",
+      "type": "FORMED_FROM",
+      "target": "n21"
+    },
+    {
+      "id": "r25",
+      "source": "n21",
+      "type": "TAKEN_FROM",
+      "target": "n1"
+    },
+    {
+      "id": "r26",
+      "source": "n1",
+      "type": "PERFORMS",
+      "target": "n26"
+    },
+    {
+      "id": "r27",
+      "source": "n26",
+      "type": "INVOLVES",
+      "target": "n22"
+    },
+    {
+      "id": "r28",
+      "source": "n22",
+      "type": "INCLUDES",
+      "target": "n23"
+    },
+    {
+      "id": "r29",
+      "source": "n22",
+      "type": "INCLUDES",
+      "target": "n24"
+    },
+    {
+      "id": "r30",
+      "source": "n22",
+      "type": "INCLUDES",
+      "target": "n25"
+    },
+    {
+      "id": "r31",
+      "source": "n1",
+      "type": "PERFORMS",
+      "target": "n27"
+    },
+    {
+      "id": "r32",
+      "source": "n27",
+      "type": "TAKES_PLACE_IN",
+      "target": "n5"
+    },
+    {
+      "id": "r33",
+      "source": "n1",
+      "type": "USES",
+      "target": "n15"
+    },
+    {
+      "id": "r34",
+      "source": "n2",
+      "type": "USES",
+      "target": "n15"
+    },
+    {
+      "id": "r35",
+      "source": "n9",
+      "type": "GIVES",
+      "target": "n30"
+    },
+    {
+      "id": "r36",
+      "source": "n30",
+      "type": "CONCERNS",
+      "target": "n6"
+    },
+    {
+      "id": "r37",
+      "source": "n30",
+      "type": "ADDRESSED_TO",
+      "target": "n1"
+    },
+    {
+      "id": "r38",
+      "source": "n31",
+      "type": "TARGETS",
+      "target": "n2"
+    },
+    {
+      "id": "r39",
+      "source": "n31",
+      "type": "INVOLVES",
+      "target": "n8"
+    },
+    {
+      "id": "r40",
+      "source": "n32",
+      "type": "MADE_BY",
+      "target": "n2"
+    },
+    {
+      "id": "r41",
+      "source": "n28",
+      "type": "FOLLOWS",
+      "target": "n32"
+    },
+    {
+      "id": "r42",
+      "source": "n1",
+      "type": "PARTICIPATES_IN",
+      "target": "n28"
+    },
+    {
+      "id": "r43",
+      "source": "n2",
+      "type": "PARTICIPATES_IN",
+      "target": "n28"
+    },
+    {
+      "id": "r44",
+      "source": "n28",
+      "type": "LEADS_TO",
+      "target": "n17"
+    },
+    {
+      "id": "r45",
+      "source": "n18",
+      "type": "GUARDS",
+      "target": "n29"
+    },
+    {
+      "id": "r46",
+      "source": "n19",
+      "type": "GUARDS",
+      "target": "n29"
+    },
+    {
+      "id": "r47",
+      "source": "n9",
+      "type": "ASSIGNS",
+      "target": "n18"
+    },
+    {
+      "id": "r48",
+      "source": "n29",
+      "type": "PROTECTS_ACCESS_TO",
+      "target": "n7"
+    }
+  ],
+  "view": {
+    "x": 0,
+    "y": 0,
+    "scale": 0.72
+  }
+}

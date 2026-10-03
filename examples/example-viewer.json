@@ -1,0 +1,338 @@
+[
+  {
+    "head": "Adam",
+    "head_type": "Person",
+    "relation": "KNOWS",
+    "tail": "Eve",
+    "tail_type": "Person"
+  },
+  {
+    "head": "Eve",
+    "head_type": "Person",
+    "relation": "KNOWS",
+    "tail": "FORBIDDEN_FRUITS",
+    "tail_type": "Knowledge"
+  },
+  {
+    "head": "Apple",
+    "head_type": "Fruit",
+    "relation": "IS",
+    "tail": "FORBIDDEN_FRUITS",
+    "tail_type": "Knowledge"
+  },
+  {
+    "head": "Adam",
+    "head_type": "Person",
+    "relation": "EATS",
+    "tail": "Apple",
+    "tail_type": "Fruit"
+  },
+  {
+    "head": "Adam",
+    "head_type": "Person",
+    "relation": "LIVES_IN",
+    "tail": "Garden of Eden",
+    "tail_type": "Place"
+  },
+  {
+    "head": "Eve",
+    "head_type": "Person",
+    "relation": "LIVES_IN",
+    "tail": "Garden of Eden",
+    "tail_type": "Place"
+  },
+  {
+    "head": "Tree of Knowledge",
+    "head_type": "Tree",
+    "relation": "LOCATED_IN",
+    "tail": "Garden of Eden",
+    "tail_type": "Place"
+  },
+  {
+    "head": "Tree of Life",
+    "head_type": "Tree",
+    "relation": "LOCATED_IN",
+    "tail": "Garden of Eden",
+    "tail_type": "Place"
+  },
+  {
+    "head": "Apple",
+    "head_type": "Fruit",
+    "relation": "GROWS_ON",
+    "tail": "Tree of Knowledge",
+    "tail_type": "Tree"
+  },
+  {
+    "head": "FORBIDDEN_FRUITS",
+    "head_type": "Knowledge",
+    "relation": "ASSOCIATED_WITH",
+    "tail": "Tree of Knowledge",
+    "tail_type": "Tree"
+  },
+  {
+    "head": "Knowledge of Good and Evil",
+    "head_type": "Concept",
+    "relation": "ASSOCIATED_WITH",
+    "tail": "Tree of Knowledge",
+    "tail_type": "Tree"
+  },
+  {
+    "head": "Serpent",
+    "head_type": "Animal",
+    "relation": "SPEAKS_TO",
+    "tail": "Eve",
+    "tail_type": "Person"
+  },
+  {
+    "head": "Serpent",
+    "head_type": "Animal",
+    "relation": "TEMPTS",
+    "tail": "Eve",
+    "tail_type": "Person"
+  },
+  {
+    "head": "Eve",
+    "head_type": "Person",
+    "relation": "EATS",
+    "tail": "Apple",
+    "tail_type": "Fruit"
+  },
+  {
+    "head": "Eve",
+    "head_type": "Person",
+    "relation": "GIVES_TO",
+    "tail": "Adam",
+    "tail_type": "Person"
+  },
+  {
+    "head": "Garden of Eden",
+    "head_type": "Place",
+    "relation": "CONTAINS",
+    "tail": "Tree of Knowledge",
+    "tail_type": "Tree"
+  },
+  {
+    "head": "Garden of Eden",
+    "head_type": "Place",
+    "relation": "CONTAINS",
+    "tail": "Tree of Life",
+    "tail_type": "Tree"
+  },
+  {
+    "head": "River of Eden",
+    "head_type": "WaterBody",
+    "relation": "FLOWS_FROM",
+    "tail": "Garden of Eden",
+    "tail_type": "Place"
+  },
+  {
+    "head": "Pishon",
+    "head_type": "River",
+    "relation": "BRANCH_OF",
+    "tail": "River of Eden",
+    "tail_type": "WaterBody"
+  },
+  {
+    "head": "Gihon",
+    "head_type": "River",
+    "relation": "BRANCH_OF",
+    "tail": "River of Eden",
+    "tail_type": "WaterBody"
+  },
+  {
+    "head": "Tigris",
+    "head_type": "River",
+    "relation": "BRANCH_OF",
+    "tail": "River of Eden",
+    "tail_type": "WaterBody"
+  },
+  {
+    "head": "Euphrates",
+    "head_type": "River",
+    "relation": "BRANCH_OF",
+    "tail": "River of Eden",
+    "tail_type": "WaterBody"
+  },
+  {
+    "head": "Adam",
+    "head_type": "Person",
+    "relation": "MADE_FROM",
+    "tail": "Dust",
+    "tail_type": "Material"
+  },
+  {
+    "head": "Eve",
+    "head_type": "Person",
+    "relation": "FORMED_FROM",
+    "tail": "Rib",
+    "tail_type": "BodyPart"
+  },
+  {
+    "head": "Rib",
+    "head_type": "BodyPart",
+    "relation": "TAKEN_FROM",
+    "tail": "Adam",
+    "tail_type": "Person"
+  },
+  {
+    "head": "Adam",
+    "head_type": "Person",
+    "relation": "PERFORMS",
+    "tail": "Naming Animals",
+    "tail_type": "Activity"
+  },
+  {
+    "head": "Naming Animals",
+    "head_type": "Activity",
+    "relation": "INVOLVES",
+    "tail": "Animals",
+    "tail_type": "Group"
+  },
+  {
+    "head": "Animals",
+    "head_type": "Group",
+    "relation": "INCLUDES",
+    "tail": "Birds",
+    "tail_type": "Group"
+  },
+  {
+    "head": "Animals",
+    "head_type": "Group",
+    "relation": "INCLUDES",
+    "tail": "Livestock",
+    "tail_type": "Group"
+  },
+  {
+    "head": "Animals",
+    "head_type": "Group",
+    "relation": "INCLUDES",
+    "tail": "Wild Animals",
+    "tail_type": "Group"
+  },
+  {
+    "head": "Adam",
+    "head_type": "Person",
+    "relation": "PERFORMS",
+    "tail": "Tending the Garden",
+    "tail_type": "Activity"
+  },
+  {
+    "head": "Tending the Garden",
+    "head_type": "Activity",
+    "relation": "TAKES_PLACE_IN",
+    "tail": "Garden of Eden",
+    "tail_type": "Place"
+  },
+  {
+    "head": "Adam",
+    "head_type": "Person",
+    "relation": "USES",
+    "tail": "Fig Leaves",
+    "tail_type": "PlantMaterial"
+  },
+  {
+    "head": "Eve",
+    "head_type": "Person",
+    "relation": "USES",
+    "tail": "Fig Leaves",
+    "tail_type": "PlantMaterial"
+  },
+  {
+    "head": "God",
+    "head_type": "Deity",
+    "relation": "GIVES",
+    "tail": "Commandment",
+    "tail_type": "Rule"
+  },
+  {
+    "head": "Commandment",
+    "head_type": "Rule",
+    "relation": "CONCERNS",
+    "tail": "Tree of Knowledge",
+    "tail_type": "Tree"
+  },
+  {
+    "head": "Commandment",
+    "head_type": "Rule",
+    "relation": "ADDRESSED_TO",
+    "tail": "Adam",
+    "tail_type": "Person"
+  },
+  {
+    "head": "Temptation",
+    "head_type": "Event",
+    "relation": "TARGETS",
+    "tail": "Eve",
+    "tail_type": "Person"
+  },
+  {
+    "head": "Temptation",
+    "head_type": "Event",
+    "relation": "INVOLVES",
+    "tail": "Serpent",
+    "tail_type": "Animal"
+  },
+  {
+    "head": "Choice",
+    "head_type": "Concept",
+    "relation": "MADE_BY",
+    "tail": "Eve",
+    "tail_type": "Person"
+  },
+  {
+    "head": "Exile from Eden",
+    "head_type": "Event",
+    "relation": "FOLLOWS",
+    "tail": "Choice",
+    "tail_type": "Concept"
+  },
+  {
+    "head": "Adam",
+    "head_type": "Person",
+    "relation": "PARTICIPATES_IN",
+    "tail": "Exile from Eden",
+    "tail_type": "Event"
+  },
+  {
+    "head": "Eve",
+    "head_type": "Person",
+    "relation": "PARTICIPATES_IN",
+    "tail": "Exile from Eden",
+    "tail_type": "Event"
+  },
+  {
+    "head": "Exile from Eden",
+    "head_type": "Event",
+    "relation": "LEADS_TO",
+    "tail": "East of Eden",
+    "tail_type": "Place"
+  },
+  {
+    "head": "Cherubim",
+    "head_type": "Guardian",
+    "relation": "GUARDS",
+    "tail": "Garden Entrance",
+    "tail_type": "Place"
+  },
+  {
+    "head": "Flaming Sword",
+    "head_type": "Object",
+    "relation": "GUARDS",
+    "tail": "Garden Entrance",
+    "tail_type": "Place"
+  },
+  {
+    "head": "God",
+    "head_type": "Deity",
+    "relation": "ASSIGNS",
+    "tail": "Cherubim",
+    "tail_type": "Guardian"
+  },
+  {
+    "head": "Garden Entrance",
+    "head_type": "Place",
+    "relation": "PROTECTS_ACCESS_TO",
+    "tail": "Tree of Life",
+    "tail_type": "Tree"
+  }
+]
